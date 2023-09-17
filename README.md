@@ -1,4 +1,4 @@
-# Project React-Typescript-Starter
+# React-Typescript-Starter
 
 This Git repository serves as a starting template for projects using TypeScript, React, Jest, Husky, ESLint, and Prettier. It's designed to help you kickstart your development with a solid foundation for front-end development.
 
