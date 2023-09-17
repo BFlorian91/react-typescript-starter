@@ -56,5 +56,5 @@ If you wish to contribute to this template, you are welcome! Please submit pull 
 
 ## License
 
-This template is licensed under the [MIT License](https://en.wikipedia.org/wiki/MIT_License)https://en.wikipedia.org/wiki/MIT_License).
+This template is licensed under the [MIT License](https://en.wikipedia.org/wiki/MIT_License).
 ```
