@@ -2,6 +2,8 @@
 
 This Git repository serves as a starting template for projects using TypeScript, React, Jest, Husky, ESLint, and Prettier. It's designed to help you kickstart your development with a solid foundation for front-end development.
 
+![preview template](https://github.com/BFlorian91/react-typescript-starter/blob/main/public/preview.png?raw=true)
+
 ## Included Features
 
 - **TypeScript**: Utilizing the TypeScript language to add static types to your JavaScript code.
@@ -57,4 +59,3 @@ If you wish to contribute to this template, you are welcome! Please submit pull 
 ## License
 
 This template is licensed under the [MIT License](https://en.wikipedia.org/wiki/MIT_License).
-```
