@@ -24,6 +24,14 @@
     "lint:fix": "eslint --fix \"**/*.{ts,tsx}\"",
     "prepare": "husky install"
   },
+  "jest": {
+    "coveragePathIgnorePatterns": [
+      "<rootDir>/node_modules/",
+      "<rootDir>/dist/",
+      "<rootDir>/src/reportWebVitals.ts",
+      "<rootDir>/src/index.tsx"
+    ]
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
