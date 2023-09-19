@@ -1,12 +1,11 @@
-import React from 'react'
 import logo from './logo.svg'
 import './App.css'
 
 function App(): JSX.Element {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <main className="h-screen bg-dark-night text-white flex justify-center">
+      <header className="flex flex-col items-center space-y-4">
+        <img src={logo} className="App-logo mt-4" alt="logo" />
         <p>
           This is a <code>src/starter.ts</code>
         </p>
@@ -18,7 +17,7 @@ function App(): JSX.Element {
           full configured
         </p>
         <a
-          className="App-link"
+          className="text-link-pink"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
@@ -26,7 +25,7 @@ function App(): JSX.Element {
           Learn React
         </a>
       </header>
-    </div>
+    </main>
   )
 }
 
