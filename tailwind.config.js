@@ -4,9 +4,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'dark-night': '#243c5a',
+        'dark-night': '#23272F',
         'link-pink': '#FD3A73'
-      },
+      }
     }
   },
   plugins: []

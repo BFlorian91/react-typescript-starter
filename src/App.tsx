@@ -17,7 +17,7 @@ function App(): JSX.Element {
           full configured
         </p>
         <a
-          className="text-link-pink"
+          className="text-link-pink p-4"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
