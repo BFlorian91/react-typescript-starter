@@ -3,13 +3,22 @@
     "browser": true,
     "es2021": true
   },
-  "extends": ["standard-with-typescript", "plugin:react/recommended"],
+  "extends": [
+    "standard-with-typescript",
+    "plugin:react/recommended",
+    "prettier",
+    "airbnb",
+    "airbnb/hooks",
+    "plugin:@typescript-eslint/recommended"
+  ],
   "settings": {
     "react": {
       "version": "detect"
     }
   },
+  "parser": "@typescript-eslint/parser",
   "parserOptions": {
+    "project": "./tsconfig.json",
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
@@ -17,9 +26,13 @@
   "ignorePatterns": ["reportWebVitals.ts", "react-app-env.d.ts"],
   "rules": {
     "space-before-function-paren": "off",
+    "quotes": [2, "single"],
     "@typescript-eslint/space-before-function-paren": "off",
     "react/react-in-jsx-scope": "off",
     "react/jsx-uses-react": "off",
-    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }]
+    "react/jsx-filename-extension": [
+      1,
+      { "extensions": [".js", ".jsx", ".ts", ".tsx"] }
+    ]
   }
 }

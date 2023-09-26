@@ -1,5 +1,5 @@
-import logo from './logo.svg'
-import './App.css'
+import logo from './logo.svg';
+import './App.css';
 
 function App(): JSX.Element {
   return (
@@ -7,13 +7,17 @@ function App(): JSX.Element {
       <header className="flex flex-col items-center space-y-4">
         <img src={logo} className="App-logo mt-4" alt="logo" />
         <p>
-          This is a <code>src/starter.ts</code>
+          This is a
+          {' '}
+          <code>src/starter.ts</code>
         </p>
         <p>
-          With{' '}
+          With
+          {' '}
           <strong>
             <i>Typescript, jest, eslint, prettier, husky</i>
-          </strong>{' '}
+          </strong>
+          {' '}
           full configured
         </p>
         <a
@@ -26,7 +30,7 @@ function App(): JSX.Element {
         </a>
       </header>
     </main>
-  )
+  );
 }
 
-export default App
+export default App;
